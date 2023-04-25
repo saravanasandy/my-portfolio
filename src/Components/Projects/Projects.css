@@ -1,0 +1,70 @@
+.projectPage{
+  padding: 20px 0px;
+ 
+}
+.project-list{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 25px;
+        margin-top: 50px ;
+      
+}
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.work img{
+    width: 360px;
+    border-radius: 13px;
+    display: block;
+    margin-top: 15px;
+    margin-left: 35px;
+    
+}
+
+.layer{
+    width: 80%;
+    height: 0;
+    margin-left: 35px;
+    border-radius: 13px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgb(140, 224, 250));
+     position: absolute;
+    left: 0;
+    bottom: 0;
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding: 0px 35px;
+   text-align: center;
+   transition: height 0.5s;
+}
+.layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+.layer a{
+    color: rgb(0, 216, 254);
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background-color: whitesmoke;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.work:hover .layer{
+    height: 100%;
+cursor: pointer;
+ 
+}
+.sub-title{
+    margin:-10px;
+    text-align: center;
+}
