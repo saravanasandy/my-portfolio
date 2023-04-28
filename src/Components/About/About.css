@@ -1,6 +1,6 @@
 .aboutPage{
     /* margin-bottom: 70px; */
-    height: 600px;
+    height: 700px;
 }
 .row{
 display: flex;
@@ -21,7 +21,8 @@ padding: 1px 30px;
 }
 
 .sub-title{
-    
+  
+    padding-bottom: 10px;
     font-size: 60px;
     font-weight: 620;
     color: rgb(2, 254, 217);
@@ -50,13 +51,17 @@ padding: 1px 30px;
 }
 
 .skill-set{
-display: flex;
+/* display: flex;
 align-items: center;
-justify-content: space-around;
-flex-wrap: wrap;
+justify-content: space-around; */
+display: grid;
+gap: 1rem;
+grid-template-columns: repeat(6,1fr);
+
 }
 .skill-set i{
-    margin-left: 18px;
+  
+    margin-left: 58px;
     color: rgb(1, 181, 231);
     
 }

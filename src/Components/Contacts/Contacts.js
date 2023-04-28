@@ -25,20 +25,20 @@ const Contacts = () => {
   }
 
 
-  const onButtonClick = () => {
-    // using Java Script method to get PDF file
-    fetch('Book.pdf').then(response => {
-        response.blob().then(blob => {
-            // Creating new object of PDF file
-            const fileURL = window.URL.createObjectURL(blob);
-            // Setting various property values
-            let alink = document.createElement('a');
-            alink.href = fileURL;
-            alink.download = 'Book.pdf';
-            alink.click();
-        })
-    })
-}
+//   const onButtonClick = () => {
+//     // using Java Script method to get PDF file
+//     fetch('Book.pdf').then(response => {
+//         response.blob().then(blob => {
+//             // Creating new object of PDF file
+//             const fileURL = window.URL.createObjectURL(blob);
+//             // Setting various property values
+//             let alink = document.createElement('a');
+//             alink.href = fileURL;
+//             alink.download = 'Book.pdf';
+//             alink.click();
+//         })
+//     })
+// }
 
   return (
     <Element className='contactPage' id='Contact'>
@@ -53,7 +53,8 @@ const Contacts = () => {
                     <a href=''> <i class="fa-brands fa-linkedin-in"></i></a>
                     <a href=''><i class="fa-duotone fa-envelope"></i></a>
                 </div>
-                <button  className='btn btn2' value="download" onClick={onButtonClick}>DownLoad CV</button>
+                {/* <button  className='btn btn2' value="download" onClick={onButtonClick}>DownLoad CV</button> */}
+                <a href='https://drive.google.com/file/d/1fGCUHQ1QeQpi9_u6IpMixhbNP5ZaYxLW/view?usp=share_link' target='_blank'  rel="noopener noreferrer"  className='btn btn2'>DownLoad CV</a>
             </div>
             <div className='contact-Right'>
                 <form  onSubmit={SubmitHandler}> 

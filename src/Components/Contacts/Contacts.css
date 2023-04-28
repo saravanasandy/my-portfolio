@@ -28,7 +28,7 @@
         color: #ababab;
         display: inline-block;
 }
-.btn.btn2{
+.btn.btn2 {
     margin-top: 30px;
     width: 145px;
     font-size: 15px;
@@ -36,11 +36,13 @@
     display: inline-block;
     background:aquamarine;
     padding: 10px;
+    padding-left: 25px;
     color: black;
     text-decoration: none;
     border-radius: 5px;
     cursor: pointer;
     transition: transform 0.5s;
+    
 }
 .contact-Right form{
     width: 100%;

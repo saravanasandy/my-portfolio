@@ -64,6 +64,22 @@ const About = () => {
                     <i class="fa-brands fa-bootstrap fa-beat-fade"></i>
                     <p>Bootstrap</p>
                     </div>
+                    <div>
+                    <i class="fa-solid fa-notdef fa-beat-fade"></i>
+                    <p>PostMan</p>
+                    </div>
+                    <div>
+                    <i class="fa-solid fa-dice-d20 fa-beat-fade"></i>
+                    <p>Netlify</p>
+                    </div>
+                    <div>
+                    <i class="fa-regular fa-square fa-beat-fade"></i>
+                    <p>Render</p>
+                    </div>
+                    <div>
+                    <i class="fa-solid fa-caret-up fa-beat-fade fa-2xl"></i>
+                    <p>Vercel</p>
+                    </div>
                  
                   </div>
 

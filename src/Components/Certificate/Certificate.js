@@ -5,7 +5,10 @@ import { Element } from 'react-scroll';
 const Certificate = () => {
   return (
     <Element className='certificatePage' id='Certificate'>
-        <h1> Certificate </h1>
+      <div className='certificate-container'>
+      <h1 className='sub-title'> Certificate </h1>
+      </div>
+       
     </Element>
   )
 }

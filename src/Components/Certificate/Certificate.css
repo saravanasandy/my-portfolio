@@ -1,5 +1,14 @@
 .certificatePage{
     width: 100%;
-    height: 600px;
+    height: 700px;
+   
   
+}
+
+.certificate-container{
+    
+}
+.sub-title{
+    margin-top: 50px;
+    text-align: center;
 }
